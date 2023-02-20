@@ -1,0 +1,27 @@
+{
+  "name": "wordle-docs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topan-dev/wordle-docs.git"
+  },
+  "keywords": [
+    "wordle",
+    "doc"
+  ],
+  "author": "Milmon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/topan-dev/wordle-docs/issues"
+  },
+  "homepage": "https://github.com/topan-dev/wordle-docs#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.60"
+  }
+}
