@@ -1,7 +1,6 @@
 import { defineUserConfig, defaultTheme, } from 'vuepress'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { searchPlugin } from '@vuepress/plugin-search'
-// import { gitPlugin } from '@vuepress/plugin-git'
 
 export default defineUserConfig({
   locales: {
@@ -41,17 +40,5 @@ export default defineUserConfig({
       },
       maxSuggestions: 10
     })
-    // gitPlugin({
-    //   locales: {
-    //     '/': {
-    //       lastUpdatedText: 'Last Updated',
-    //       contributorsText: 'Contributorsqwq',
-    //     },
-    //     '/zh/': {
-    //       lastUpdatedText: '最后编辑于',
-    //       contributorsText: '贡献者'
-    //     },
-    //   }
-    // })
   ]
 });
