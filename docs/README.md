@@ -1,3 +1,24 @@
+---
+home: true
+# heroImage: /favicon.png
+heroText: Wordle
+tagline: 极简机房划水小游戏
+action:
+  - text: 使用
+    link: /docs/
+    type: primary
+  - text: 部署
+    link: /install/
+features:
+- title: 轻量
+  details: 安装方便，轻量代码
+- title: 强大
+  details: 各种模式任意挑选，鉴权系统完善
+- title: 极简
+  details: 使用极简的前端系统
+footer: AGPL 3.0 Licensed | Copyright © 2023-present Topan Devlopement Group
+---
+
 ## Wordle
 
 Here is a multiparty interactive game on web - Wordle.

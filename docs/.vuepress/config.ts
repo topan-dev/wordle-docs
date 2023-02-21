@@ -21,11 +21,23 @@ export default defineUserConfig({
     locales: {
       '/': {
         selectLanguageName: 'English',
+        navbar: [
+          {text: 'Usage', link: '/',},
+          {text: 'Deploy', link: '/install/',},
+          {text: 'Devlope', link: '/dev/',},
+          {text: 'GitHub Repo', link: 'https://github.com/topan-dev/wordle.git',},
+        ],
       },
       '/zh/': {
         selectLanguageName: '简体中文',
+        navbar: [
+          {text: '使用', link: '/',},
+          {text: '部署', link: '/install/',},
+          {text: '开发', link: '/dev/',},
+          {text: 'GitHub 项目', link: 'https://github.com/topan-dev/wordle.git',},
+        ],
       },
-    },
+    }
   }),
   plugins: [
     shikiPlugin({}),
